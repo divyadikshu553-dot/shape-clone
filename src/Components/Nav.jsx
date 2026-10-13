@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="flex items-center justify-between border border-gray rounded-full px-6 py-3">
+    <nav className="flex items-center justify-between border border-gray-300 rounded-full px-6 py-3">
       <h1 className="text-2xl font-bold">SHAPE</h1>
 
       <div className="hidden gap-8 md:flex">

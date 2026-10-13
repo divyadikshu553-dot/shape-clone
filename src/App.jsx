@@ -3,9 +3,9 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
-import Nav from "./Components/nav";
-import Hero from "./Components/Hero";
-import Footer from "./Components/Footer";
+import Nav from "./Components/Nav.jsx";
+import Hero from "./Components/Hero.jsx";
+import WhoAreWe from "./Components/WhoareWe.jsx";
 
 
 
@@ -14,7 +14,7 @@ function App() {
     <>
       <Nav/>
       <Hero/>
-      <Footer/>
+      <WhoAreWe/>
     </>
   );
 }
